@@ -13,7 +13,20 @@
           "package_name": "com.explorejobx.ppp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "552760837186-qcjgmfkg57bn8a22m2oug54l4glkqdnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.explorejobx.ppp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "552760837186-u2ngppp00ue34im57n7ev6o0s37lg1vi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCSGIheDiUr55KKHdqHQ9rlR2yejDyCljE"
@@ -21,7 +34,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552760837186-u2ngppp00ue34im57n7ev6o0s37lg1vi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "552760837186-4vfin7vbnb0pcarj6ilituqkcc8rb2ma.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.uielements.explorejobs"
+              }
+            }
+          ]
         }
       }
     },
@@ -32,7 +57,20 @@
           "package_name": "com.uielements.explorejobs"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "552760837186-77r6e821qi20e24ajhs40v8lnge2durr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uielements.explorejobs",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "552760837186-u2ngppp00ue34im57n7ev6o0s37lg1vi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCSGIheDiUr55KKHdqHQ9rlR2yejDyCljE"
@@ -40,7 +78,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552760837186-u2ngppp00ue34im57n7ev6o0s37lg1vi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "552760837186-4vfin7vbnb0pcarj6ilituqkcc8rb2ma.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.uielements.explorejobs"
+              }
+            }
+          ]
         }
       }
     }
