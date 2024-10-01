@@ -4,8 +4,6 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:barcode_widget/barcode_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'qr_code_model.dart';
 export 'qr_code_model.dart';
@@ -65,7 +63,7 @@ class _QrCodeWidgetState extends State<QrCodeWidget> {
                         padding:
                             const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 0.0, 0.0),
                         child: Text(
-                          'Scan QR Code',
+                          'Share QR Code',
                           style: FlutterFlowTheme.of(context)
                               .headlineMedium
                               .override(
@@ -81,66 +79,6 @@ class _QrCodeWidgetState extends State<QrCodeWidget> {
                         ),
                       ),
                     ],
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(28.0, 0.0, 0.0, 0.0),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 28.0, 0.0),
-                        child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            _model.scannedqrcode =
-                                await FlutterBarcodeScanner.scanBarcode(
-                              '#C62828', // scanning line color
-                              'Cancel', // cancel button text
-                              true, // whether to show the flash icon
-                              ScanMode.BARCODE,
-                            );
-
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              SnackBar(
-                                content: Text(
-                                  'Scanning Successfull!',
-                                  style: TextStyle(
-                                    color: FlutterFlowTheme.of(context)
-                                        .primaryText,
-                                  ),
-                                ),
-                                duration: const Duration(milliseconds: 4000),
-                                backgroundColor:
-                                    FlutterFlowTheme.of(context).secondary,
-                              ),
-                            );
-
-                            context.pushNamed(
-                              'QrCode',
-                              queryParameters: {
-                                'scanned': serializeParam(
-                                  widget.scanned,
-                                  ParamType.String,
-                                ),
-                              }.withoutNulls,
-                            );
-
-                            safeSetState(() {});
-                          },
-                          child: Icon(
-                            Icons.document_scanner,
-                            color: FlutterFlowTheme.of(context).secondaryText,
-                            size: 34.0,
-                          ),
-                        ),
-                      ),
-                    ].divide(const SizedBox(width: 44.0)),
                   ),
                 ),
               ],
@@ -228,48 +166,6 @@ class _QrCodeWidgetState extends State<QrCodeWidget> {
                           ),
                         ),
                       ),
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 12.0),
-                  child: FFButtonWidget(
-                    onPressed: () async {
-                      await Clipboard.setData(
-                          ClipboardData(text: _model.scannedqrcode));
-                    },
-                    text: valueOrDefault<String>(
-                      _model.scannedqrcode,
-                      'Csnned Result here...',
-                    ),
-                    icon: const Icon(
-                      Icons.content_copy_outlined,
-                      size: 15.0,
-                    ),
-                    options: FFButtonOptions(
-                      width: 300.0,
-                      height: 55.0,
-                      padding:
-                          const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
-                      iconPadding:
-                          const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: FlutterFlowTheme.of(context).primaryBackground,
-                      textStyle: FlutterFlowTheme.of(context)
-                          .titleSmall
-                          .override(
-                            fontFamily:
-                                FlutterFlowTheme.of(context).titleSmallFamily,
-                            color: FlutterFlowTheme.of(context).primaryText,
-                            letterSpacing: 0.0,
-                            useGoogleFonts: GoogleFonts.asMap().containsKey(
-                                FlutterFlowTheme.of(context).titleSmallFamily),
-                          ),
-                      elevation: 8.0,
-                      borderSide: BorderSide(
-                        color: FlutterFlowTheme.of(context).primaryText,
-                        width: 1.0,
-                      ),
-                      borderRadius: BorderRadius.circular(8.0),
                     ),
                   ),
                 ),

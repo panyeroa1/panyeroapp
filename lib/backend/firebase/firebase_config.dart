@@ -5,12 +5,12 @@ Future initFirebase() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: const FirebaseOptions(
-            apiKey: "AIzaSyBceuJHkf0twNcMYb5xkQLlZb_iXOoJx3Q",
-            authDomain: "explore-jobx-lvs1op.firebaseapp.com",
-            projectId: "explore-jobx-lvs1op",
-            storageBucket: "explore-jobx-lvs1op.appspot.com",
-            messagingSenderId: "552760837186",
-            appId: "1:552760837186:web:8f5371acb0c21e6b31d9db"));
+            apiKey: "AIzaSyDpIcbvGBBYSmEeeiNBufV8ffQeGr06lbI",
+            authDomain: "wallet-im2xad.firebaseapp.com",
+            projectId: "wallet-im2xad",
+            storageBucket: "wallet-im2xad.appspot.com",
+            messagingSenderId: "499459179904",
+            appId: "1:499459179904:web:913ea7a6fa86113f532d65"));
   } else {
     await Firebase.initializeApp();
   }

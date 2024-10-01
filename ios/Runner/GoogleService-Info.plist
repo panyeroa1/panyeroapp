@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>552760837186-k4ua0n8ikp8clnfl1gjd96m364d12ro7.apps.googleusercontent.com</string>
+	<string>499459179904-cre00l8h68lpa4tgpd7v297ggt967kto.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.552760837186-k4ua0n8ikp8clnfl1gjd96m364d12ro7</string>
+	<string>com.googleusercontent.apps.499459179904-cre00l8h68lpa4tgpd7v297ggt967kto</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>552760837186-77r6e821qi20e24ajhs40v8lnge2durr.apps.googleusercontent.com</string>
+	<string>499459179904-5faq0o7764fd730gr01usgfeu0mum9lc.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAQdhNveG5nGHDL5qwGYDXrnEbRnNa56B0</string>
+	<string>AIzaSyDTuVO8QmxFj1J2ZcXGRmOx3863FcLv_T0</string>
 	<key>GCM_SENDER_ID</key>
-	<string>552760837186</string>
+	<string>499459179904</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.explorejobx.ppp</string>
+	<string>com.tstp.app</string>
 	<key>PROJECT_ID</key>
-	<string>explore-jobx-lvs1op</string>
+	<string>wallet-im2xad</string>
 	<key>STORAGE_BUCKET</key>
-	<string>explore-jobx-lvs1op.appspot.com</string>
+	<string>wallet-im2xad.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,8 +31,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:552760837186:ios:50eeda0f2421deb531d9db</string>
+	<string>1:499459179904:ios:bf7b16f69477225a532d65</string>
 	<key>DATABASE_URL</key>
-	<string>https://explore-jobx-lvs1op-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+	<string>https://wallet-im2xad-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>
 </plist>
