@@ -8,69 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:499459179904:android:247086fe04d73638532d65",
+        "mobilesdk_app_id": "1:499459179904:android:e03bddca2e3183b2532d65",
         "android_client_info": {
-          "package_name": "com.panyerowallet.io"
+          "package_name": "com.panyeroapp.online"
         }
       },
       "oauth_client": [
         {
-          "client_id": "499459179904-5faq0o7764fd730gr01usgfeu0mum9lc.apps.googleusercontent.com",
+          "client_id": "499459179904-0r3kjn40eej7vans3dg5pli52ribv6lb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.panyerowallet.io",
-            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
-          }
-        },
-        {
-          "client_id": "499459179904-gjsfgo58jb43rg5be1d4sidu9m7u7oom.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBFe0JLmVd5b9C9DCnE6qDpbI_HUyEAzw0"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "102254127112785564890",
-              "client_type": 3
-            },
-            {
-              "client_id": "499459179904-3bbk2ei43l907r44jhbih9cq485ppn26.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.panyerowallet.io"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:499459179904:android:6b4dd7fc20840d13532d65",
-        "android_client_info": {
-          "package_name": "com.tstp.app"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "499459179904-boh9oplbjps83gd6moqkbk79402o70d8.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.tstp.app",
-            "certificate_hash": "651eed6ccf7a1e54d62aca49e51f34bdd708cc4e"
-          }
-        },
-        {
-          "client_id": "499459179904-ksqkse294lr06nn50q4k6ggupc0aas0c.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.tstp.app",
+            "package_name": "com.panyeroapp.online",
             "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
           }
         },

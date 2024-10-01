@@ -10,7 +10,7 @@ Future initFirebase() async {
             projectId: "wallet-im2xad",
             storageBucket: "wallet-im2xad.appspot.com",
             messagingSenderId: "499459179904",
-            appId: "1:499459179904:web:913ea7a6fa86113f532d65"));
+            appId: "1:499459179904:web:299dc25f847ca874532d65"));
   } else {
     await Firebase.initializeApp();
   }
